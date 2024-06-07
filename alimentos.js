@@ -5,7 +5,7 @@ const chutes = [
     ['carn', 'casq', 'cebo', 'choc'],
     ['chá'],
     ['chá de boldo'],
-    ['chá de camomila'], 
+    ['chá de camomila'],
     ['chá de hortelã'],
     ['chá gelado'],
     ['chá mate'],
@@ -14,18 +14,19 @@ const chutes = [
     ['coca', 'cora', 'couv', 'crem'],
     ['doce', 'feij', 'filé', 'fran'],
     ['frut', 'gela', 'leit', 'maca'],
-    ['maçã', 'molh', 'mous', 'ovo'],
+    ['maçã', 'molh', 'milho', 'mous'],
     ['ovo'],
+    ['gema'],
     ['ovo de codorna'],
     ['ovo de páscoa'],
     ['past', 'peit'],
     ['peti', 'pime', 'pipo', 'pudi'],
     ['pão'],
     ['pão de alho'],
-    ['pão de batata'], 
+    ['pão de batata'],
     ['pão de forma'],
-    ['pão de ló'], 
-    ['pão de mel'], 
+    ['pão de ló'],
+    ['pão de mel'],
     ['pão de queijo'],
     ['pão australiano'],
     ['pão doce'],
@@ -33,16 +34,99 @@ const chutes = [
     ['pão integral'],
     ['pão sírio'],
     ['pé de moleque'],
-    ['quei', 'repo', 'Sal'], 
+    ['quei', 'repo', 'Sal'],
     ['sal grosso'],
     ['sala', 'sopa', 'sorv', 'suco'],
     ['toma', 'tort'],
     ['uva'],
     ['uva passa'],
-    ['Vinh', 'Água', 'óleo']
+    ['Vinh', 'Água', 'óleo'],
+    ['abac', 'abiu', 'abricó', 'acarajé'],
+    ['acelga', 'acerola', 'adoçante', 'agrião'],
+    ['aguardente', 'aipim', 'aipo', 'alca'],
+    ['alecrim', 'alfa', 'almeirão', 'almôndega'],
+    ['alpiste', 'amaranto', 'ambrosia', 'ameixa'],
+    ['amendoim', 'amora', 'amêndoa', 'angu'],
+    ['araçá', 'aspargo', 'aveia', 'avelã'],
+    ['açafrão', 'açaí', 'baba', 'bacalhau'],
+    ['bacon', 'bacuri', 'baguete', 'barra'],
+    ['batida', 'baunilha', 'bauru', 'beijinho'],
+    ['beirute', 'bengala', 'berinjela', 'bertalha'],
+    ['beterraba', 'bombom', 'brevidade', 'brigadeiro'],
+    ['brioche', 'bisteca', 'brócolis', 'burritos'],
+    ['cabelo', 'cacau', 'cachaça', 'cachorro'],
+    ['caipirinha', 'cajamanga', 'caju', 'cajá'],
+    ['calabresa', 'camarão', 'cambucá', 'camu-camu'],
+    ['canapé', 'canela', 'canelone', 'galinha'],
+    ['canjica', 'capelete', 'capim', 'cappuccino'],
+    ['caqui', 'cara', 'caruru', 'casadinho'],
+    ['castanha', 'caviar', 'cenoura', 'cere'],
+    ['cerveja', 'champ', 'chantilly', 'cheddar'],
+    ['cheesecake', 'cheiro', 'chester', 'chic'],
+    ['chim', 'chope', 'chuc', 'churr'],
+    ['clara', 'coca', 'coco', 'coentro'],
+    ['cogumelo', 'colorau', 'cominho', 'conhaque'],
+    ['cookies', 'costela', 'coxinha', 'cozido'],
+    ['cravo', 'crepe', 'croissant', 'croquete'],
+    ['cupcake', 'cupuaçu', 'curau', 'curry'],
+    ['curry', 'cuscuz', 'damasco', 'dobradinha'],
+    ['empa', 'endívia', 'energético', 'erva-doce'],
+    ['ervilha', 'esca', 'esfirra', 'espaguete'],
+    ['espetinho', 'espinafre', 'farinha', 'farofa'],
+    ['fermento', 'figo', 'fogazza', 'fondue'],
+    ['framboesa', 'funghi', 'gabiroba', 'ganache'],
+    ['geleia', 'gema', 'gengibre', 'gergelim'],
+    ['glacê', 'goia', 'gorgonzola', 'granola'],
+    ['graviola', 'groselha', 'grumixama', 'grão'],
+    ['guacamole', 'guaraná', 'hambúrguer', 'ingá'],
+    ['inhame', 'iogurte', 'jabuticaba', 'jaca'],
+    ['jambo', 'jamelão', 'jataí', 'jatobá'],
+    ['jenipapo', 'jerimum', 'jiló', 'jujuba'],
+    ['kafta', 'ketchup', 'kiwi', 'laranja'],
+    ['lasanha', 'lentilha', 'lichia', 'licor'],
+    ['lima', 'limonada', 'limão', 'linguiça'],
+    ['linhaça', 'lombo', 'louro', 'macadâmia'],
+    ['maionese', 'maisena', 'malagueta', 'mamão'],
+    ['mandi', 'mang', 'manj', 'manteiga'],
+    ['maracujá', 'margarina', 'mari', 'marm'],
+    ['marshmallow', 'maxixe', 'mel', 'melancia'],
+    ['melão', 'menta', 'merengue', 'milkshake'],
+    ['mingau', 'mirtilo', 'misto', 'morango'],
+    ['mortadela', 'mostarda', 'muffin', 'muqueca'],
+    ['murici', 'muçarela', 'músculo', 'nabo'],
+    ['nachos', 'nectarina', 'nhoque', 'noz-moscada'],
+    ['nozes', 'nuggets', 'nêspera', 'olho'],
+    ['omelete', 'orobô', 'orégano', 'italiana'],
+    ['palmito', 'pamonha', 'panetone', 'panqueca'],
+    ['papo', 'parmesão', 'pasta', 'pastilha'],
+    ['patê', 'pavê', 'paçoca', 'pepino'],
+    ['pepperoni', 'pequi', 'pera', 'pernil'],
+    ['petit', 'picanha', 'picles', 'picolé'],
+    ['pinha', 'pinhão', 'pirulito', 'pirão'],
+    ['pistache', 'pitanga', 'pitaya', 'pitomba'],
+    ['pizza', 'polenta', 'polvilho', 'presunto'],
+    ['profiteroles', 'provolone', 'purê', 'pão'],
+    ['gali', 'moleque', 'pêssego', 'quentão'],
+    ['quiabo', 'quibe', 'quin', 'raba'],
+    ['rapadura', 'ravioli', 'refrigerante', 'ricota'],
+    ['riso', 'rocambole', 'rolinho', 'romã'],
+    ['rondele', 'rosbife', 'rosquinha', 'rum'],
+    ['rúcula', 'sagu', 'salame', 'salgadinho'],
+    ['salpicão', 'salsa', 'sals', 'sanduíche'],
+    ['sapoti', 'saquê', 'sarapatel', 'sashimi'],
+    ['sequilho', 'sidra', 'siriguela', 'soja'],
+    ['sonho', 'strogonoff', 'sushi', 'suflê'],
+    ['sundae', 'suspiro', 'tacacá', 'taco'],
+    ['talharim', 'tamarindo', 'tangerina', 'tapioca'],
+    ['temaki', 'tequila', 'tiramisu', 'tofu'],
+    ['tomilho', 'toranja', 'torr', 'trigo'],
+    ['trufa', 'tucupi', 'tâmara', 'umbu'],
+    ['urucum', 'uísque', 'vagem', 'vatapá'],
+    ['vina', 'vodca', 'waffles', 'wasabi'],
+    ['yakisoba']
 ];
 
-const resp = [ 
+const resp = [
     ['abacate', 'abacaxi', 'abiu', 'abobrinha'],
     ['abricó', 'abóbora', 'abóbora jacarezinho', 'acarajé'],
     ['acelga', 'acerola', 'achocolatado', 'adoçante'],
@@ -363,7 +447,7 @@ async function Chutar() {
             form.requestSubmit();
         });
 
-        await Delay(180);
+        await Delay(90);
     }
 }
 
@@ -394,8 +478,9 @@ async function ChutarPerto() {
         }
 
         if (listaPerto.length > 3) {
-            for (let perto of listaPerto) {
-                // const pertos = respostas.querySelectorAll('.perto');
+            const filtraResp = resp.flat().filter(res => listaPerto.flat().some(per => res.includes(per)));
+
+            for (let resp of filtraResp) {
                 // const ListaRespPendentes = respostas.querySelectorAll('.enviando');
 
                 // for (let ListaRespPendente of ListaRespPendentes) {
@@ -403,7 +488,7 @@ async function ChutarPerto() {
 
                 //     if (respPendente.includes(':')) {
                 //         const partes = respPendente.split(':');
-        
+
                 //         if (partes.length > 1) {
                 //             const resp = partes[1].trim().split(' ');
 
@@ -420,14 +505,14 @@ async function ChutarPerto() {
                 //                 if (acertos.length > 0) {
                 //                     const ultimoAcerto = acertos[acertos.length - 1];
                 //                     const conteudo = ultimoAcerto.innerHTML;
-                    
+
                 //                     if (conteudo.match(/Você acertou/gi)) {
                 //                         LimparPertos();
                 //                         LimparAcertos()
                 //                         return;
                 //                     }
                 //                 }
-                
+
                 //                 if (ultimoPerto != pertos[pertos.length - 1]) {
                 //                     console.log("Novo elemento '.perto' encontrado");
                 //                     await ChutarPerto();
@@ -454,8 +539,8 @@ async function ChutarPerto() {
                 //     }
                 // }
 
-                if (respostasEnviadas.has(perto)) {
-                    console.log("Resposta já enviada:", perto);
+                if (respostasEnviadas.has(resp)) {
+                    console.log("Resposta já enviada:", resp);
                     continue;
                 }
 
@@ -466,20 +551,14 @@ async function ChutarPerto() {
                     return;
                 }
 
-                // if (ultimoPerto != pertos[pertos.length - 1]) {
-                //     console.log("Novo elemento '.perto' encontrado");
-                //     ChutarPerto();
-                //     return;
-                // }
-
                 if (sair) {
                     return;
                 }
 
-                input.value = perto;
-                respostasEnviadas.add(perto);
+                input.value = resp;
+                respostasEnviadas.add(resp);
 
-                console.log(perto);
+                console.log(resp);
 
                 await new Promise(resolve => {
                     form.addEventListener('submit', () => {
@@ -487,7 +566,7 @@ async function ChutarPerto() {
                     }, { once: true });
                     form.requestSubmit();
                 });
-        
+
                 await Delay(300);
             }
         }
@@ -506,7 +585,7 @@ async function ChutarPerto() {
 
             //     if (respPendente.includes(':')) {
             //         const partes = respPendente.split(':');
-    
+
             //         if (partes.length > 1) {
             //             const resp = partes[1].trim().split(' ');
 
@@ -524,7 +603,7 @@ async function ChutarPerto() {
             //                 if (acertos.length > 0) {
             //                     const ultimoAcerto = acertos[acertos.length - 1];
             //                     const conteudo = ultimoAcerto.innerHTML;
-                
+
             //                     if (conteudo.match(/Você acertou/gi)) {
             //                         LimparPertos();
             //                         LimparAcertos()
@@ -591,7 +670,7 @@ async function ChutarPerto() {
                 }, { once: true });
                 form.requestSubmit();
             });
-    
+
             await Delay(300);
         }
     }
@@ -638,7 +717,7 @@ async function DicasPendentes(respValidas, indiceInicial) {
             form.requestSubmit();
         });
 
-        await Delay(300);
+        await Delay(280);
     }
 
     indiceAtual = 0;
@@ -734,14 +813,14 @@ async function Dica() {
         //                 if (acertos.length > 0) {
         //                     const ultimoAcerto = acertos[acertos.length - 1];
         //                     const conteudo = ultimoAcerto.innerHTML;
-        
+
         //                     if (conteudo.match(/Você acertou/gi)) {
         //                         LimparDicas();
         //                         LimparAcertos()
         //                         return;
         //                     }
         //                 }
-        
+
         //                 if (ultimaDica != dicas[dicas.length - 1]) {
         //                     console.log("Nova dica encontrada");
         //                     Dica();
@@ -810,7 +889,7 @@ async function Dica() {
             form.requestSubmit();
         });
 
-        await Delay(300);
+        await Delay(280);
     }
 
     if (indiceFinal < respValidas.length) {
@@ -838,31 +917,51 @@ async function Tryhardar() {
     LimparDicas();
 }
 
-var executar = document.createElement('button');
-executar.innerText = 'Executar';
+var play = document.createElement('button');
+play.innerText = 'Play';
 
-executar.style.position = 'fixed';
-executar.style.bottom = '20px';
-executar.style.left = '20px';
-executar.style.zindice = '9999';
+play.style.position = 'fixed';
+play.style.width = '48px';
+play.style.height = '48px';
+play.style.borderRadius = '50%';
+play.style.backgroundColor = '#00a0ff';
+play.style.color = 'white';
+play.style.border = 'none';
+play.style.display = 'flex';
+play.style.alignItems = 'center';
+play.style.justifyContent = 'center';
+play.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+play.style.zIndex = '9999';
+play.style.left = '20px';
+play.style.top = 'calc(50% - 56px)';
 
-document.body.appendChild(executar);
+document.body.appendChild(play);
 
-executar.addEventListener('click', Tryhardar);
+play.addEventListener('click', Tryhardar);
 
 var parar = document.createElement('button');
 parar.innerText = 'Parar';
 
 parar.style.position = 'fixed';
-parar.style.bottom = '20px';
-parar.style.left = '120px';
-parar.style.zindice = '9999';
+parar.style.width = '48px';
+parar.style.height = '48px';
+parar.style.borderRadius = '50%';
+parar.style.backgroundColor = '#f44336';
+parar.style.color = 'white';
+parar.style.border = 'none';
+parar.style.display = 'flex';
+parar.style.alignItems = 'center';
+parar.style.justifyContent = 'center';
+parar.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+parar.style.zIndex = '9999';
+parar.style.left = '20px';
+parar.style.top = 'calc(50% - 0px)';
 
 document.body.appendChild(parar);
 
-parar.addEventListener('click', function() {
-        sair = true;
-    });
+parar.addEventListener('click', function () {
+    sair = true;
+});
 
 document.body.addEventListener('keydown', async (e) => {
     if (e.keyCode === 16) {
