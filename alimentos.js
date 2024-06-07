@@ -5,7 +5,7 @@ const chutes = [
     ['carn', 'casq', 'cebo', 'choc'],
     ['chá'],
     ['chá de boldo'],
-    ['chá de camomila'], 
+    ['chá de camomila'],
     ['chá de hortelã'],
     ['chá gelado'],
     ['chá mate'],
@@ -14,18 +14,19 @@ const chutes = [
     ['coca', 'cora', 'couv', 'crem'],
     ['doce', 'feij', 'filé', 'fran'],
     ['frut', 'gela', 'leit', 'maca'],
-    ['maçã', 'molh', 'mous', 'ovo'],
+    ['maçã', 'molh', 'milho', 'mous'],
     ['ovo'],
+    ['gema'],
     ['ovo de codorna'],
     ['ovo de páscoa'],
     ['past', 'peit'],
     ['peti', 'pime', 'pipo', 'pudi'],
     ['pão'],
     ['pão de alho'],
-    ['pão de batata'], 
+    ['pão de batata'],
     ['pão de forma'],
-    ['pão de ló'], 
-    ['pão de mel'], 
+    ['pão de ló'],
+    ['pão de mel'],
     ['pão de queijo'],
     ['pão australiano'],
     ['pão doce'],
@@ -33,16 +34,99 @@ const chutes = [
     ['pão integral'],
     ['pão sírio'],
     ['pé de moleque'],
-    ['quei', 'repo', 'Sal'], 
+    ['quei', 'repo', 'Sal'],
     ['sal grosso'],
     ['sala', 'sopa', 'sorv', 'suco'],
     ['toma', 'tort'],
     ['uva'],
     ['uva passa'],
-    ['Vinh', 'Água', 'óleo']
+    ['Vinh', 'Água', 'óleo'],
+    ['abac', 'abiu', 'abricó', 'acarajé'],
+    ['acelga', 'acerola', 'adoçante', 'agrião'],
+    ['aguardente', 'aipim', 'aipo', 'alca'],
+    ['alecrim', 'alfa', 'almeirão', 'almôndega'],
+    ['alpiste', 'amaranto', 'ambrosia', 'ameixa'],
+    ['amendoim', 'amora', 'amêndoa', 'angu'],
+    ['araçá', 'aspargo', 'aveia', 'avelã'],
+    ['açafrão', 'açaí', 'baba', 'bacalhau'],
+    ['bacon', 'bacuri', 'baguete', 'barra'],
+    ['batida', 'baunilha', 'bauru', 'beijinho'],
+    ['beirute', 'bengala', 'berinjela', 'bertalha'],
+    ['beterraba', 'bombom', 'brevidade', 'brigadeiro'],
+    ['brioche', 'bisteca', 'brócolis', 'burritos'],
+    ['cabelo', 'cacau', 'cachaça', 'cachorro'],
+    ['caipirinha', 'cajamanga', 'caju', 'cajá'],
+    ['calabresa', 'camarão', 'cambucá', 'camu-camu'],
+    ['canapé', 'canela', 'canelone', 'galinha'],
+    ['canjica', 'capelete', 'capim', 'cappuccino'],
+    ['caqui', 'cara', 'caruru', 'casadinho'],
+    ['castanha', 'caviar', 'cenoura', 'cere'],
+    ['cerveja', 'champ', 'chantilly', 'cheddar'],
+    ['cheesecake', 'cheiro', 'chester', 'chic'],
+    ['chim', 'chope', 'chuc', 'churr'],
+    ['clara', 'coca', 'coco', 'coentro'],
+    ['cogumelo', 'colorau', 'cominho', 'conhaque'],
+    ['cookies', 'costela', 'coxinha', 'cozido'],
+    ['cravo', 'crepe', 'croissant', 'croquete'],
+    ['cupcake', 'cupuaçu', 'curau', 'curry'],
+    ['curry', 'cuscuz', 'damasco', 'dobradinha'],
+    ['empa', 'endívia', 'energético', 'erva-doce'],
+    ['ervilha', 'esca', 'esfirra', 'espaguete'],
+    ['espetinho', 'espinafre', 'farinha', 'farofa'],
+    ['fermento', 'figo', 'fogazza', 'fondue'],
+    ['framboesa', 'funghi', 'gabiroba', 'ganache'],
+    ['geleia', 'gema', 'gengibre', 'gergelim'],
+    ['glacê', 'goia', 'gorgonzola', 'granola'],
+    ['graviola', 'groselha', 'grumixama', 'grão'],
+    ['guacamole', 'guaraná', 'hambúrguer', 'ingá'],
+    ['inhame', 'iogurte', 'jabuticaba', 'jaca'],
+    ['jambo', 'jamelão', 'jataí', 'jatobá'],
+    ['jenipapo', 'jerimum', 'jiló', 'jujuba'],
+    ['kafta', 'ketchup', 'kiwi', 'laranja'],
+    ['lasanha', 'lentilha', 'lichia', 'licor'],
+    ['lima', 'limonada', 'limão', 'linguiça'],
+    ['linhaça', 'lombo', 'louro', 'macadâmia'],
+    ['maionese', 'maisena', 'malagueta', 'mamão'],
+    ['mandi', 'mang', 'manj', 'manteiga'],
+    ['maracujá', 'margarina', 'mari', 'marm'],
+    ['marshmallow', 'maxixe', 'mel', 'melancia'],
+    ['melão', 'menta', 'merengue', 'milkshake'],
+    ['mingau', 'mirtilo', 'misto', 'morango'],
+    ['mortadela', 'mostarda', 'muffin', 'muqueca'],
+    ['murici', 'muçarela', 'músculo', 'nabo'],
+    ['nachos', 'nectarina', 'nhoque', 'noz-moscada'],
+    ['nozes', 'nuggets', 'nêspera', 'olho'],
+    ['omelete', 'orobô', 'orégano', 'italiana'],
+    ['palmito', 'pamonha', 'panetone', 'panqueca'],
+    ['papo', 'parmesão', 'pasta', 'pastilha'],
+    ['patê', 'pavê', 'paçoca', 'pepino'],
+    ['pepperoni', 'pequi', 'pera', 'pernil'],
+    ['petit', 'picanha', 'picles', 'picolé'],
+    ['pinha', 'pinhão', 'pirulito', 'pirão'],
+    ['pistache', 'pitanga', 'pitaya', 'pitomba'],
+    ['pizza', 'polenta', 'polvilho', 'presunto'],
+    ['profiteroles', 'provolone', 'purê', 'pão'],
+    ['gali', 'moleque', 'pêssego', 'quentão'],
+    ['quiabo', 'quibe', 'quin', 'raba'],
+    ['rapadura', 'ravioli', 'refrigerante', 'ricota'],
+    ['riso', 'rocambole', 'rolinho', 'romã'],
+    ['rondele', 'rosbife', 'rosquinha', 'rum'],
+    ['rúcula', 'sagu', 'salame', 'salgadinho'],
+    ['salpicão', 'salsa', 'sals', 'sanduíche'],
+    ['sapoti', 'saquê', 'sarapatel', 'sashimi'],
+    ['sequilho', 'sidra', 'siriguela', 'soja'],
+    ['sonho', 'strogonoff', 'sushi', 'suflê'],
+    ['sundae', 'suspiro', 'tacacá', 'taco'],
+    ['talharim', 'tamarindo', 'tangerina', 'tapioca'],
+    ['temaki', 'tequila', 'tiramisu', 'tofu'],
+    ['tomilho', 'toranja', 'torr', 'trigo'],
+    ['trufa', 'tucupi', 'tâmara', 'umbu'],
+    ['urucum', 'uísque', 'vagem', 'vatapá'],
+    ['vina', 'vodca', 'waffles', 'wasabi'],
+    ['yakisoba']
 ];
 
-const resp = [ 
+const resp = [
     ['abacate', 'abacaxi', 'abiu', 'abobrinha'],
     ['abricó', 'abóbora', 'abóbora jacarezinho', 'acarajé'],
     ['acelga', 'acerola', 'achocolatado', 'adoçante'],
@@ -201,6 +285,7 @@ let tryhardando = false;
 let sair = false;
 let respostasEnviadas = new Set();
 let indiceAtual = 0;
+let tempos = [];
 
 function Delay(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
@@ -236,11 +321,9 @@ function ContemAcertos() {
     return false;
 }
 
-// function LimparRespostasPendentes() {
-//     const respostas = document.getElementById('respostas');
-//     const respPendentes = respostas.querySelectorAll('.enviando');
-//     respPendentes.forEach(respPen => respPen.remove());
-// }
+function LimparTempo() {
+    tempos = [];
+}
 
 async function Chutar() {
     const form = document.querySelector('#formResposta');
@@ -255,73 +338,8 @@ async function Chutar() {
         const respostas = document.getElementById('respostas');
         const pertos = respostas.querySelectorAll('.perto');
         const dicas = respostas.querySelectorAll('.dica');
-        // const ListaRespPendentes = respostas.querySelectorAll('.enviando');
 
         const chute = subChute.join(' ');
-
-        // for (let ListaRespPendente of ListaRespPendentes) {
-        //     const respPendente = ListaRespPendente.textContent;
-
-        //     if (respPendente.includes(':')) {
-        //         const partes = respPendente.split(':');
-
-        //         if (partes.length > 1) {
-        //             const resp = partes[1].trim().split(' ');
-
-        //             for (let res of resp) {
-        //                 const respostas = document.getElementById('respostas');
-        //                 const pertos = respostas.querySelectorAll('.perto');
-        //                 const dica = respostas.querySelector('.dica');
-        //                 const acertos = respostas.querySelectorAll('.acertou');
-
-        //                 const re = res.trim();
-
-        //                 if (respostasEnviadas.has(re)) {
-        //                     console.log("Resposta já enviada:", re);
-        //                     continue;
-        //                 }
-
-        //                 if (pertos.length > 0) {
-        //                     console.log("Elemento '.perto' encontrado.");
-        //                     ChutarPerto();
-        //                     return;
-        //                 }
-
-        //                 if (dica) {
-        //                     console.log("Elemento '.dica' encontrado.");
-        //                     Dica();
-        //                     return;
-        //                 }
-
-        //                 if (acertos.length > 0) {
-        //                     const ultimoAcerto = acertos[acertos.length - 1];
-        //                     const conteudo = ultimoAcerto.innerHTML;
-
-        //                     if (conteudo.match(/Você acertou/gi)) {
-        //                         LimparAcertos();
-        //                         return;
-        //                     }
-        //                 }
-
-        //                 if (sair) {
-        //                     return;
-        //                 }
-
-        //                 input.value = re;
-        //                 respostasEnviadas.add(re);
-
-        //                 await new Promise(resolve => {
-        //                     form.addEventListener('submit', () => {
-        //                         resolve();
-        //                     }, { once: true });
-        //                     form.requestSubmit();
-        //                 });
-
-        //                 await delay(90);
-        //             }
-        //         }
-        //     }
-        // }
 
         if (respostasEnviadas.has(chute)) {
             console.log("Resposta já enviada:", chute);
@@ -356,6 +374,8 @@ async function Chutar() {
 
         console.log(chute);
 
+        const inicio = performance.now();
+
         await new Promise(resolve => {
             form.addEventListener('submit', () => {
                 resolve();
@@ -363,7 +383,14 @@ async function Chutar() {
             form.requestSubmit();
         });
 
-        await Delay(180);
+        await Delay(100);
+
+        const fim = performance.now();
+        const tempo = fim - inicio;
+        tempos.push(tempo);
+        console.log(`${tempo}ms`);
+
+        tempoDiv.innerText = `${tempo.toFixed(2)}ms`;
     }
 }
 
@@ -394,68 +421,11 @@ async function ChutarPerto() {
         }
 
         if (listaPerto.length > 3) {
-            for (let perto of listaPerto) {
-                // const pertos = respostas.querySelectorAll('.perto');
-                // const ListaRespPendentes = respostas.querySelectorAll('.enviando');
+            const filtraResp = resp.flat().filter(res => listaPerto.flat().some(per => res.includes(per)));
 
-                // for (let ListaRespPendente of ListaRespPendentes) {
-                //     const respPendente = ListaRespPendente.textContent;
-
-                //     if (respPendente.includes(':')) {
-                //         const partes = respPendente.split(':');
-        
-                //         if (partes.length > 1) {
-                //             const resp = partes[1].trim().split(' ');
-
-                //             for (let res of resp) {
-                //                 const pertos = respostas.querySelectorAll('.perto');
-
-                //                 const re = res.trim();
-
-                //                 if (respostasEnviadas.has(re)) {
-                //                     console.log("Resposta já enviada:", re);
-                //                     continue;
-                //                 }
-
-                //                 if (acertos.length > 0) {
-                //                     const ultimoAcerto = acertos[acertos.length - 1];
-                //                     const conteudo = ultimoAcerto.innerHTML;
-                    
-                //                     if (conteudo.match(/Você acertou/gi)) {
-                //                         LimparPertos();
-                //                         LimparAcertos()
-                //                         return;
-                //                     }
-                //                 }
-                
-                //                 if (ultimoPerto != pertos[pertos.length - 1]) {
-                //                     console.log("Novo elemento '.perto' encontrado");
-                //                     await ChutarPerto();
-                //                     return;
-                //                 }
-
-                //                 if (sair) {
-                //                     return;
-                //                 }
-
-                //                 input.value = re;
-                //                 respostasEnviadas.add(re);
-
-                //                 await new Promise(resolve => {
-                //                     form.addEventListener('submit', () => {
-                //                         resolve();
-                //                     }, { once: true });
-                //                     form.requestSubmit();
-                //                 });
-
-                //                 await delay(80);
-                //             }
-                //         }
-                //     }
-                // }
-
-                if (respostasEnviadas.has(perto)) {
-                    console.log("Resposta já enviada:", perto);
+            for (let resp of filtraResp) {
+                if (respostasEnviadas.has(resp)) {
+                    console.log("Resposta já enviada:", resp);
                     continue;
                 }
 
@@ -466,20 +436,16 @@ async function ChutarPerto() {
                     return;
                 }
 
-                // if (ultimoPerto != pertos[pertos.length - 1]) {
-                //     console.log("Novo elemento '.perto' encontrado");
-                //     ChutarPerto();
-                //     return;
-                // }
-
                 if (sair) {
                     return;
                 }
 
-                input.value = perto;
-                respostasEnviadas.add(perto);
+                input.value = resp;
+                respostasEnviadas.add(resp);
 
-                console.log(perto);
+                console.log(resp);
+
+                const inicio = performance.now();
 
                 await new Promise(resolve => {
                     form.addEventListener('submit', () => {
@@ -487,8 +453,15 @@ async function ChutarPerto() {
                     }, { once: true });
                     form.requestSubmit();
                 });
-        
+
                 await Delay(300);
+
+                const fim = performance.now();
+                const tempo = fim - inicio;
+                tempos.push(tempo);
+                console.log(`${tempo}ms`);
+
+                tempoDiv.innerText = `${tempo.toFixed(2)}ms`;
             }
         }
 
@@ -499,64 +472,6 @@ async function ChutarPerto() {
         for (let resp of filtraResp) {
             const respostas = document.getElementById('respostas');
             const pertos = respostas.querySelectorAll('.perto');
-            // const ListaRespPendentes = respostas.querySelectorAll('.enviando');
-
-            // for (let ListaRespPendente of ListaRespPendentes) {
-            //     const respPendente = ListaRespPendente.textContent;
-
-            //     if (respPendente.includes(':')) {
-            //         const partes = respPendente.split(':');
-    
-            //         if (partes.length > 1) {
-            //             const resp = partes[1].trim().split(' ');
-
-            //             for (let res of resp) {
-            //                 const respostas = document.getElementById('respostas');
-            //                 const pertos = respostas.querySelectorAll('.perto');
-
-            //                 const re = res.trim();
-
-            //                 if (respostasEnviadas.has(re)) {
-            //                     console.log("Resposta já enviada:", re);
-            //                     continue;
-            //                 }
-
-            //                 if (acertos.length > 0) {
-            //                     const ultimoAcerto = acertos[acertos.length - 1];
-            //                     const conteudo = ultimoAcerto.innerHTML;
-                
-            //                     if (conteudo.match(/Você acertou/gi)) {
-            //                         LimparPertos();
-            //                         LimparAcertos()
-            //                         return;
-            //                     }
-            //                 }
-
-            //                 if (ultimoPerto != pertos[pertos.length - 1]) {
-            //                     console.log("Novo elemento '.perto' encontrado");
-            //                     ChutarPerto();
-            //                     return;
-            //                 }
-
-            //                 if (sair) {
-            //                     return;
-            //                 }
-
-            //                 input.value = re;
-            //                 respostasEnviadas.add(re);
-
-            //                 await new Promise(resolve => {
-            //                     form.addEventListener('submit', () => {
-            //                         resolve();
-            //                     }, { once: true });
-            //                     form.requestSubmit();
-            //                 });
-
-            //                 await delay(80);
-            //             }
-            //         }
-            //     }
-            // }
 
             if (respostasEnviadas.has(resp)) {
                 console.log("Resposta já enviada:", resp);
@@ -591,8 +506,15 @@ async function ChutarPerto() {
                 }, { once: true });
                 form.requestSubmit();
             });
-    
+
             await Delay(300);
+
+            const fim = performance.now();
+            const tempo = fim - inicio;
+            tempos.push(tempo);
+            console.log(`${tempo}ms`);
+
+            tempoDiv.innerText = `${tempo.toFixed(2)}ms`;
         }
     }
 }
@@ -631,6 +553,8 @@ async function DicasPendentes(respValidas, indiceInicial) {
 
         console.log(resp);
 
+        const inicio = performance.now();   
+
         await new Promise(resolve => {
             form.addEventListener('submit', () => {
                 resolve();
@@ -638,7 +562,14 @@ async function DicasPendentes(respValidas, indiceInicial) {
             form.requestSubmit();
         });
 
-        await Delay(300);
+        await Delay(280);
+
+        const fim = performance.now();
+        const tempo = fim - inicio;
+        tempos.push(tempo);
+        console.log(`${tempo}ms`);
+
+        tempoDiv.innerText = `${tempo.toFixed(2)}ms`;
     }
 
     indiceAtual = 0;
@@ -708,65 +639,6 @@ async function Dica() {
 
         const respostas = document.getElementById('respostas');
         const novasDicas = respostas.querySelectorAll('.dica');
-        // const pertos = respostas.querySelectorAll('.perto');
-        // const ListaRespPendentes = respostas.querySelectorAll('.enviando');
-
-        // for (let ListaRespPendente of ListaRespPendentes) {
-        //     const respPendente = ListaRespPendente.textContent;
-
-        //     if (respPendente.includes(':')) {
-        //         const partes = respPendente.split(':');
-
-        //         if (partes.length > 1) {
-        //             const resp = partes[1].trim().split(' ');
-
-        //             for (let res of resp) {
-        //                 const respostas = document.getElementById('respostas');
-        //                 const dicas = respostas.querySelectorAll('.dica');
-
-        //                 const re = res.trim();
-
-        //                 if (respostasEnviadas.has(re)) {
-        //                     console.log("Resposta já enviada:", re);
-        //                     continue;
-        //                 }
-
-        //                 if (acertos.length > 0) {
-        //                     const ultimoAcerto = acertos[acertos.length - 1];
-        //                     const conteudo = ultimoAcerto.innerHTML;
-        
-        //                     if (conteudo.match(/Você acertou/gi)) {
-        //                         LimparDicas();
-        //                         LimparAcertos()
-        //                         return;
-        //                     }
-        //                 }
-        
-        //                 if (ultimaDica != dicas[dicas.length - 1]) {
-        //                     console.log("Nova dica encontrada");
-        //                     Dica();
-        //                     return;
-        //                 }
-
-        //                 if (sair) {
-        //                     return;
-        //                 }
-
-        //                 input.value = re;
-        //                 respostasEnviadas.add(re);
-
-        //                 await new Promise(resolve => {
-        //                     form.addEventListener('submit', () => {
-        //                         resolve();
-        //                     }, { once: true });
-        //                     form.requestSubmit();
-        //                 });
-
-        //                 await delay(100);
-        //             }
-        //         }
-        //     }
-        // }
 
         if (respostasEnviadas.has(resp)) {
             console.log("Resposta já enviada:", resp);
@@ -788,12 +660,6 @@ async function Dica() {
             return;
         }
 
-        // if (ultimoPerto != pertos[pertos.length - 1]) {
-        //     console.log("Novo elemento '.perto' encontrado");
-        //     ChutarPerto();
-        //     return;
-        // }
-
         if (sair) {
             return;
         }
@@ -803,6 +669,8 @@ async function Dica() {
 
         console.log(resp);
 
+        const inicio = performance.now();   
+
         await new Promise(resolve => {
             form.addEventListener('submit', () => {
                 resolve();
@@ -810,7 +678,14 @@ async function Dica() {
             form.requestSubmit();
         });
 
-        await Delay(300);
+        await Delay(280);
+
+        const fim = performance.now();
+        const tempo = fim - inicio;
+        tempos.push(tempo);
+        console.log(`${tempo}ms`);
+
+        tempoDiv.innerText = `${tempo.toFixed(2)}ms`;
     }
 
     if (indiceFinal < respValidas.length) {
@@ -827,8 +702,8 @@ async function Tryhardar() {
     indiceAtual = 0;
     respostasEnviadas.clear();
 
-    // LimparRespostasPendentes();
     LimparAcertos();
+    LimparTempo();
 
     await Chutar();
     await ChutarPerto()
@@ -838,31 +713,82 @@ async function Tryhardar() {
     LimparDicas();
 }
 
-var executar = document.createElement('button');
-executar.innerText = 'Executar';
+var playDiv = document.createElement('button');
+playDiv.innerText = 'Play';
 
-executar.style.position = 'fixed';
-executar.style.bottom = '20px';
-executar.style.left = '20px';
-executar.style.zindice = '9999';
+playDiv.style.position = 'fixed';
+playDiv.style.width = '48px';
+playDiv.style.height = '48px';
+playDiv.style.borderRadius = '50%';
+playDiv.style.backgroundColor = '#00a0ff';
+playDiv.style.color = 'white';
+playDiv.style.border = 'none';
+playDiv.style.displayDiv = 'flex';
+playDiv.style.alignItems = 'center';
+playDiv.style.justifyContent = 'center';
+playDiv.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+playDiv.style.zIndex = '9999';
+playDiv.style.left = '20px';
+playDiv.style.top = 'calc(50% - 56px)';
 
-document.body.appendChild(executar);
+document.body.appendChild(playDiv);
 
-executar.addEventListener('click', Tryhardar);
+playDiv.addEventListener('click', Tryhardar);
 
-var parar = document.createElement('button');
-parar.innerText = 'Parar';
+var pararDiv = document.createElement('button');
+pararDiv.innerText = 'Parar';
 
-parar.style.position = 'fixed';
-parar.style.bottom = '20px';
-parar.style.left = '120px';
-parar.style.zindice = '9999';
+pararDiv.style.position = 'fixed';
+pararDiv.style.width = '48px';
+pararDiv.style.height = '48px';
+pararDiv.style.borderRadius = '50%';
+pararDiv.style.backgroundColor = '#f44336';
+pararDiv.style.color = 'white';
+pararDiv.style.border = 'none';
+pararDiv.style.display = 'flex';
+pararDiv.style.alignItems = 'center';
+pararDiv.style.justifyContent = 'center';
+pararDiv.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+pararDiv.style.zIndex = '9999';
+pararDiv.style.left = '20px';
+pararDiv.style.top = 'calc(50% - 0px)';
 
-document.body.appendChild(parar);
+document.body.appendChild(pararDiv);
 
-parar.addEventListener('click', function() {
-        sair = true;
-    });
+pararDiv.addEventListener('click', function () {
+    sair = true;
+});
+
+var tempoDiv = document.createElement('div');
+tempoDiv.innerText = '0ms';
+tempoDiv.style.position = 'fixed';
+tempoDiv.style.top = 'calc(50% + 60px)';
+tempoDiv.style.left = '20px';
+tempoDiv.style.fontSize = '14px';
+tempoDiv.style.color = 'black';
+tempoDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+tempoDiv.style.padding = '5px 10px';
+tempoDiv.style.borderRadius = '5px';
+tempoDiv.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+tempoDiv.style.zIndex = '9999';
+
+document.body.appendChild(tempoDiv);
+
+var authorDiv = document.createElement('div');
+authorDiv.innerText = 'By Darndest';
+
+authorDiv.style.position = 'fixed';
+authorDiv.style.top = '10px';
+authorDiv.style.left = '10px';
+authorDiv.style.fontSize = '14px';
+authorDiv.style.color = 'black';
+authorDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
+authorDiv.style.padding = '5px 10px';
+authorDiv.style.borderRadius = '5px';
+authorDiv.style.boxShadow = '0px 2px 10px rgba(0, 0, 0, 0.3)';
+authorDiv.style.zIndex = '9999';
+
+document.body.appendChild(authorDiv);
 
 document.body.addEventListener('keydown', async (e) => {
     if (e.keyCode === 16) {
